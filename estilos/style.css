@@ -34,14 +34,18 @@ section#login {
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.486);
+    /*Transiçã e ou animação para a mudançã*/
+    transition: width 0.3s, height 0.3s;
+    /*suavisar durante a animação*/
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem {
     display: block;
     background: lightgoldenrodyellow url(../imagens/fwstudio.jpg) no-repeat;
-    height: 200px;
     background-size: cover;
     background-position: center center;
+    height: 200px;
 }
 
 section#login > div#formulario {
